@@ -1,69 +1,65 @@
-# PostCSS German Style Sheets
+# PostCSS Swiss German Style Sheets
 
 [![travis](https://img.shields.io/travis/timche/postcss-german-stylesheets.svg?style=flat-square)](https://travis-ci.org/timche/postcss-german-stylesheets)
 [![npm](https://img.shields.io/npm/v/postcss-german-stylesheets.svg?style=flat-square)](https://www.npmjs.com/package/postcss-german-stylesheets)
 
 > [PostCSS](https://github.com/postcss/postcss) plugin for writing German Style Sheets.
 
-Take CSS to the next level and write your CSS in German!
+CSS in Änglisch i MIINERE Schwiiz? Aazeig isch dusse!
 
 ## Installation
 
-```console
-$ npm install postcss-german-stylesheets
-```
+Nonig fertig
 
-## Usage
+## Verwändig
 
 ```js
 // ES5
-var germanStyleSheets = require('postcss-german-stylesheets')
+var swissGermanStyleSheets = require('postcss-swiss-german-stylesheets')
 
 // ES6
-import germanStyleSheets from 'postcss-german-stylesheets'
+import swissGermanStyleSheets from 'postcss-swiss-german-stylesheets'
 ```
 
-See [PostCSS#Usage](https://github.com/postcss/postcss#usage) for usage for your environment.
+Lies dir [PostCSS#Verwändig](https://github.com/postcss/postcss#usage) dure für wiiteri Aawendigsbiispiel.
 
-## Example
+## Biispiel
 
-Using this `input.css`:
+`helvetia.css`:
 
 ```css
-.foo {
-    höhe: 300px;
-    außenabstand-unten: 10px;
-    schriftgröße: 20px !wichtig;
-    hintergrundfarbe: schwarz;
-    farbe: weiß;
+.schwiizer-chrüüz {
+    höchi: 300px;
+    breiti: 300px;
+    abstand-gäg-abe: 10px;
+    schriftgrössi: 250px !wichtig;
+    hintergrundfarb: rot;
+    farb: wiis;
+    inhalt: "+";
+    text-uusrichtig: mittig;
 }
 ```
 
-you will get:
+macht drus folgendes CSS (bis Google Chromstahl, Füürfuchs und so au schwiizerdütsches CSS verstönd)
 
 ```css
-.foo {
+.schwiizer-chrüüz {
     height: 300px;
+    width: 300px;
     margin-bottom: 10px;
-    font-size: 20px !important;
-    background-color: black;
+    font-size: 250px !important;
+    background-color: red;
     color: white;
+    content: "+";
+    text-align: center;
 }
 ```
 
-## Documentation
+## Dokumentation
 
-- [Properties](https://github.com/timche/postcss-german-stylesheets/blob/master/docs/Properties.md)
-- [Values](https://github.com/timche/postcss-german-stylesheets/blob/master/docs/Values.md)
+- [Attribut](https://github.com/oliver-la/postcss-swiss-german-stylesheets/blob/master/docs/Properties.md)
+- [Wärt](https://github.com/oliver-la/postcss-swiss-german-stylesheets/blob/master/docs/Values.md)
 
-## Contributing
+## Mach mit
 
-`postcss-german-stylesheets` has only a subset of CSS and needs your help to add more German properties and values.
-
-## Changelog
-
-See [CHANGELOG.md](https://github.com/timche/postcss-german-stylesheets/blob/master/CHANGELOG.md).
-
-## License
-
-See [LICENSE](https://github.com/timche/postcss-german-stylesheets/blob/master/LICENSE).
+`postcss-swiss-german-stylesheets` isch no in Arbet, hilf bitte mit!
